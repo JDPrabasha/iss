@@ -7,9 +7,9 @@
 import ballerina/http;
 
 final http:OAuth2ClientCredentialsGrantConfig salesforceAuthConfig = {
-    clientId: "",
-    clientSecret: "",
-    tokenUrl: "https://api.asgardeo.io/t/wso2/oauth2/token"
+    clientId: salesforceClientID,
+    clientSecret: salesforceClientSecret,
+    tokenUrl: salesforceTokenUrl
 
 };
 final http:RetryConfig salesforceRetryConfig = {
