@@ -8,7 +8,7 @@ public type SalesforceObject record {|
     Transaction[] transactions;
     string customerEmail;
     string closeDate;
-    string customerId;
+    string customerId?;
 |};
 
 public type Transaction record {|
