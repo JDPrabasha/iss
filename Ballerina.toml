@@ -2,7 +2,7 @@
 org = "dulajp"
 name = "iss"
 version = "0.1.0"
-distribution = "2201.8.5"
+distribution = "2201.12.6"
 
 [build-options]
 observabilityIncluded = true
